@@ -9,15 +9,19 @@ class Triangle {
     mSideC = c;
   }
 
-  public int triangleTypeChecker() {
+  public String triangleTypeChecker() {
     if (mSideA + mSideB < mSideC || mSideB + mSideC < mSideA || mSideA + mSideC < mSideB){
-      return 1;
+      String triangle1 = "This is not a triangle";
+      return triangle1;
     } else if(mSideA == mSideB && mSideB == mSideC && mSideA == mSideC){
-      return 2;
+      String triangle2 = "This is an equilateral triangle";
+      return triangle2;
     } else if(mSideA == mSideB || mSideB == mSideC || mSideA == mSideC){
-      return 3;
+      String triangle3 = "This is an isosceles triangle";
+      return triangle3;
     } else {
-      return 4;
+      String triangle4 = "This is a scalene triangle";
+      return triangle4;
     }
   }
 }
