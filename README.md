@@ -13,7 +13,7 @@ This is a web application that takes three sides of a triangle and returns wheth
 You will need [gradle](https://gradle.org/gradle-download/) installed on your device.
 
 Enter the following commands in your terminal:
-* `git clone https://github.com/sheenanick/java-change-machine` to clone this repository
+* `git clone https://github.com/sheenanick/java-triangle-tracker` to clone this repository
 * `gradle run`
 
 Then, navigate to localhost:4567 in the web browser of your choice.
